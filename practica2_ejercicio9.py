@@ -18,12 +18,12 @@ print('Well, ' + my_name + ', I am thinking of a number between 1 and 50.')
 guessing = True
 while guessing:
     guesses_taken+= 1 
-    print('Take a guess.') # Four spaces in front of "print"
+    print('Take a guess.')
     guess = input()
     guess = int(guess)
 
     if guess < number:
-        print('Your guess is too low.') # Eight spaces in front of "print"
+        print('Your guess is too low.')
 
     if guess > number:
         print('Your guess is too high.')
